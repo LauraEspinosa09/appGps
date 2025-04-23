@@ -1,0 +1,13 @@
+
+
+<ion-content>
+  <div #map id="map"></div>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="resetTracking()">
+      <ion-icon name="refresh"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <div class="info-panel">
+    <p> {{coords.length}}/{{maxPoints}}</p>
+  </div>
+</ion-content>
