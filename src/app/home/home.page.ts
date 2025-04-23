@@ -239,3 +239,4 @@ export class HomePage implements OnInit, AfterViewInit, OnDestroy {
     }
   }
 }
+ 
